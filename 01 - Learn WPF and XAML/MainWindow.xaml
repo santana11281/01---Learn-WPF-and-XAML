@@ -74,7 +74,8 @@
         </Viewbox>
         -->
         <!--  08 grids and gridspan -->
-        <Grid>
+    <!--
+            <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="1*"/>
@@ -89,6 +90,18 @@
         <Button Grid.Column="1"  Grid.Row="1"> Button 01</Button>
         <Button Grid.Column="2">Button 01</Button>
     </Grid>
+    -->
+
+    <!--  09 wrap panel -->
+    <WrapPanel>
+        <Button>click here</Button>
+        <Button>click here</Button>
+        <Button>click here</Button>
+        <Button>click here</Button>
+        <Button>click here</Button>
+        <Button>click here</Button>
+    </WrapPanel>
+
 
 
 
